@@ -1,0 +1,1423 @@
+var treeData = [{
+	"id": "ZBFL0100",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "征管基本状况评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0101",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0100",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "征管基本状况评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0102",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0100",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "征管状况变动情况评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0200",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "征收类评价模型",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0201",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0200",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "申报受理工作评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0202",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0200",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "税款征收评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0300",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "服务类评价模型",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0301",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0300",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "办税服务效率评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0302",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0300",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "发票供需匹配度评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0400",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "风控运行状况评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0401",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0400",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "风控运行状况评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0402",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0400",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "风控成效评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0500",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "检查类评价模型",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0501",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0500",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "税务检查统筹评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0600",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "争议处置类评价模型",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0601",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0600",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "税务执法纠正评价",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0700",
+	"zbydcbz": "N",
+	"open": "true",
+	"pId": "",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "外部评价类模型",
+	"isParent": "true"
+}, {
+	"id": "ZBFL0701",
+	"zbydcbz": "N",
+	"open": "false",
+	"pId": "ZBFL0700",
+	"sflxmc": "",
+	"zblxmc": "",
+	"name": "外部评价",
+	"isParent": "true"
+}, {
+	"id": "F014",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "电子缴款凭证占完税凭证比例",
+	"isParent": "false"
+}, {
+	"id": "F016",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "统计省内跨区域迁移平均办理天数",
+	"isParent": "false"
+}, {
+	"id": "F030",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0302",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "每月领票3-5次户数占比",
+	"isParent": "false"
+}, {
+	"id": "F039",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0302",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "每月领票5次以上户数占比",
+	"isParent": "false"
+}, {
+	"id": "K020",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "户均查补税额",
+	"isParent": "false"
+}, {
+	"id": "Z001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "电子申报率",
+	"isParent": "false"
+}, {
+	"id": "Z004",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "按月报送小微企业财务报表占比",
+	"isParent": "false"
+}, {
+	"id": "Z007",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "财税库银入库笔数占比",
+	"isParent": "false"
+}, {
+	"id": "Z008",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "催缴后缴税户占比",
+	"isParent": "false"
+}, {
+	"id": "Z009",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "申报更正率(税务机关)",
+	"isParent": "false"
+}, {
+	"id": "Z019",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "财税库银入库金额占比",
+	"isParent": "false"
+}, {
+	"id": "C005",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查收入同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "C006",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查收入同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C007",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查收入变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "C008",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查收入变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C009",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查户数占全部户数同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "C010",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查户数占全部户数同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C011",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查户数占全部户数变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "C012",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "稽查户数占全部户数变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C013",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "反避税户数同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "C014",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "反避税户数同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C015",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "反避税户数变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "C016",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "反避税户数变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C017",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "税务审计户数同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "C018",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "税务审计户数同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C019",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "税务审计户数变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "C020",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "税务审计户数变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "C021",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时期数指标",
+	"name": "逾期办结行政处罚户次",
+	"isParent": "false"
+}, {
+	"id": "C001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "省级风险管理任务推送户占比",
+	"isParent": "false"
+}, {
+	"id": "C002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "下达税务检查通知书重复户数占比",
+	"isParent": "false"
+}, {
+	"id": "C030",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "稽查收入绩效考核成绩排名",
+	"isParent": "false"
+}, {
+	"id": "C031",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "反避税收入绩效考核成绩排名",
+	"isParent": "false"
+}, {
+	"id": "C032",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "大企业审计绩效考核成绩排名",
+	"isParent": "false"
+}, {
+	"id": "F011",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "办税服务厅业务办理总量及占比",
+	"isParent": "false"
+}, {
+	"id": "F012",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "增值税普通发票核定事项办理时长",
+	"isParent": "false"
+}, {
+	"id": "F013",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "未办理税费种认定户数占正常户比例",
+	"isParent": "false"
+}, {
+	"id": "F015",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "待注销三个月以上户数占比",
+	"isParent": "false"
+}, {
+	"id": "J004",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0601",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "执法过错纠正率",
+	"isParent": "false"
+}, {
+	"id": "K007",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "总局推送任务各省占比",
+	"isParent": "false"
+}, {
+	"id": "K008",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "总局风险管理任务完成率",
+	"isParent": "false"
+}, {
+	"id": "K009",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "总局风险管理任务有问题率",
+	"isParent": "false"
+}, {
+	"id": "K021",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均查补户数",
+	"isParent": "false"
+}, {
+	"id": "K022",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "非正常户法定代表人担任正常户五类人员的户数占比（法人、财务负责人、办税人员、投资人、领票人）",
+	"isParent": "false"
+}, {
+	"id": "K023",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "非正常发票结存情况",
+	"isParent": "false"
+}, {
+	"id": "K024",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "收入预测准确率",
+	"isParent": "false"
+}, {
+	"id": "K025",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "业务部门人员占比",
+	"isParent": "false"
+}, {
+	"id": "K029",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0402",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均查补税额",
+	"isParent": "false"
+}, {
+	"id": "WB001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0701",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "纳税人满意度调查结果",
+	"isParent": "false"
+}, {
+	"id": "WB002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0701",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收营商环境调查结果",
+	"isParent": "false"
+}, {
+	"id": "WB003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0701",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "政府绩效管理结果",
+	"isParent": "false"
+}, {
+	"id": "Z002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "网上办理备案户次比例",
+	"isParent": "false"
+}, {
+	"id": "Z003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "金税三期系统稳定性、网报系统稳定性",
+	"isParent": "false"
+}, {
+	"id": "Z010",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "发票开超率",
+	"isParent": "false"
+}, {
+	"id": "Z011",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "新增欠税余额占比",
+	"isParent": "false"
+}, {
+	"id": "Z012",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0202",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "企业所得税核定征收户数占比",
+	"isParent": "false"
+}, {
+	"id": "Z015",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "申报表录入时长",
+	"isParent": "false"
+}, {
+	"id": "ZH001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0101",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占全国税收收入比重",
+	"isParent": "false"
+}, {
+	"id": "ZH002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占全国税收收入比重同比变动",
+	"isParent": "false"
+}, {
+	"id": "ZH005",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占全国税收收入比重全国排名变动",
+	"isParent": "false"
+}, {
+	"id": "ZH006",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0101",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占GDP比重",
+	"isParent": "false"
+}, {
+	"id": "ZH007",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占GDP比重同比变动",
+	"isParent": "false"
+}, {
+	"id": "ZH010",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "税收收入占GDP比重全国排名变动",
+	"isParent": "false"
+}, {
+	"id": "ZH011",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0101",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均税收收入",
+	"isParent": "false"
+}, {
+	"id": "ZH012",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均税收收入同比变动",
+	"isParent": "false"
+}, {
+	"id": "ZH014",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均税收收入全国排名变动",
+	"isParent": "false"
+}, {
+	"id": "ZH016",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0101",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均业务量",
+	"isParent": "false"
+}, {
+	"id": "ZH017",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均业务量同比变动",
+	"isParent": "false"
+}, {
+	"id": "ZH018",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": "四分位算法",
+	"zblxmc": "时点数指标",
+	"name": "人均业务量全国排名变动",
+	"isParent": "false"
+}, {
+	"id": "F029",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0302",
+	"sflxmc": "正态分布算法",
+	"zblxmc": "时点数指标",
+	"name": "供票与销售额配比情况",
+	"isParent": "false"
+}, {
+	"id": "K005",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": "正态分布算法",
+	"zblxmc": "时点数指标",
+	"name": "总局推送各省风险管理任务应对周期",
+	"isParent": "false"
+}, {
+	"id": "J002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0601",
+	"sflxmc": " 按件（次）扣分",
+	"zblxmc": "时期数指标",
+	"name": "税务听证户数",
+	"isParent": "false"
+}, {
+	"id": "J001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0601",
+	"sflxmc": " 按件（次）扣分",
+	"zblxmc": "时点数指标",
+	"name": "撤销或变更具体行政行为次数",
+	"isParent": "false"
+}, {
+	"id": "J003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0601",
+	"sflxmc": " 按件（次）扣分",
+	"zblxmc": "时点数指标",
+	"name": "行政诉讼败诉案件数",
+	"isParent": "false"
+}, {
+	"id": "WB004",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0701",
+	"sflxmc": " 按件（次）扣分",
+	"zblxmc": "时点数指标",
+	"name": "国务院督查、外部审计结果",
+	"isParent": "false"
+}, {
+	"id": "C029",
+	"zbydcbz": "Y",
+	"open": "",
+	"pId": "ZBFL0501",
+	"sflxmc": "直接得分法",
+	"zblxmc": "时期数指标",
+	"name": "下达税务检查通知书重复户户均次数",
+	"isParent": "false"
+}, {
+	"id": "ZH004",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "税收收入变动情况全国排名",
+	"isParent": "false"
+}, {
+	"id": "ZH008",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "税收收入占GDP比重同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "Z016",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "定额调整率",
+	"isParent": "false"
+}, {
+	"id": "Z017",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "总体退税办理率（从金额上反映）",
+	"isParent": "false"
+}, {
+	"id": "Z018",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "出口退税审批到退库办理周期",
+	"isParent": "false"
+}, {
+	"id": "Z020",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "出口退税返纳率",
+	"isParent": "false"
+}, {
+	"id": "Z021",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "电子退、更、免推行率",
+	"isParent": "false"
+}, {
+	"id": "Z023",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "欠税变动率",
+	"isParent": "false"
+}, {
+	"id": "Z024",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "实施税收保全户、欠税税额、入库税额占欠税户、欠税税额、追缴税额比率",
+	"isParent": "false"
+}, {
+	"id": "Z025",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "实施强制执行户、欠税税额、入库税额占欠税户、欠税税额、追缴税额比率",
+	"isParent": "false"
+}, {
+	"id": "Z026",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "实施阻止出境户次",
+	"isParent": "false"
+}, {
+	"id": "F020",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "税收优惠办理户数",
+	"isParent": "false"
+}, {
+	"id": "F025",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "12366咨询辅导户数",
+	"isParent": "false"
+}, {
+	"id": "F031",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "纳税信用等级补、复评户数占比",
+	"isParent": "false"
+}, {
+	"id": "F032",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "办税服务厅常见业务办理时长",
+	"isParent": "false"
+}, {
+	"id": "F033",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "办税服务厅常见业务办理时长",
+	"isParent": "false"
+}, {
+	"id": "K001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "风险建模",
+	"isParent": "false"
+}, {
+	"id": "K002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "风险识别（模型包含识别，建议删除该指标）",
+	"isParent": "false"
+}, {
+	"id": "K003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "风险排序",
+	"isParent": "false"
+}, {
+	"id": "K004",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "省级风险管理任务推送频率",
+	"isParent": "false"
+}, {
+	"id": "K010",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补收入工作成效",
+	"isParent": "false"
+}, {
+	"id": "K011",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补收入同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "K012",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补收入同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "K013",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补收入变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "K014",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补收入变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "K015",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补户数占全部户数同比变动情况",
+	"isParent": "false"
+}, {
+	"id": "K016",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补户数占全部户数同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "K017",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补户数占全部户数变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "K018",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "查补户数占全部户数变动率全国（排名）同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "K019",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "每万户恶性发案率",
+	"isParent": "false"
+}, {
+	"id": "K026",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "跨区域风险提示自动触发次数",
+	"isParent": "false"
+}, {
+	"id": "K027",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "有税户占比",
+	"isParent": "false"
+}, {
+	"id": "K028",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "宏观税负",
+	"isParent": "false"
+}, {
+	"id": "K030",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "业务部门人员平均年龄（分省、市、县）",
+	"isParent": "false"
+}, {
+	"id": "K031",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "业务部门人员学历结构",
+	"isParent": "false"
+}, {
+	"id": "K032",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0401",
+	"sflxmc": null,
+	"zblxmc": "时期数指标",
+	"name": "业务部门人员资质证书",
+	"isParent": "false"
+}, {
+	"id": "ZH003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "税收收入变动比例 排名",
+	"isParent": "false"
+}, {
+	"id": "ZH009",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "税收收入占GDP比重全国排名",
+	"isParent": "false"
+}, {
+	"id": "ZH013",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "人均税收收入同比变动率排名",
+	"isParent": "false"
+}, {
+	"id": "ZH015",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0102",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "业务量统计",
+	"isParent": "false"
+}, {
+	"id": "Z005",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "准期申报率",
+	"isParent": "false"
+}, {
+	"id": "Z006",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "准期申报变动率",
+	"isParent": "false"
+}, {
+	"id": "Z013",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "催报后申报户占比",
+	"isParent": "false"
+}, {
+	"id": "Z014",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "不予加收滞纳金入库税额占比（调整脚本）",
+	"isParent": "false"
+}, {
+	"id": "Z022",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0201",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "欠税公告户数",
+	"isParent": "false"
+}, {
+	"id": "F001",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "登记总体状况",
+	"isParent": "false"
+}, {
+	"id": "F005",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "管户变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "F006",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "管户变动率全国（排名）变动排名",
+	"isParent": "false"
+}, {
+	"id": "F007",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "人均管户变动情况",
+	"isParent": "false"
+}, {
+	"id": "F008",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "人均管户变动情况 排名",
+	"isParent": "false"
+}, {
+	"id": "F009",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "人均管户变动率全国排名",
+	"isParent": "false"
+}, {
+	"id": "F010",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "人均管户变动率全国（排名）变动排名",
+	"isParent": "false"
+}, {
+	"id": "F017",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "发起、接收省外跨区域办理户数",
+	"isParent": "false"
+}, {
+	"id": "F018",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "有增值税认定没有企业所得税认定户数占比",
+	"isParent": "false"
+}, {
+	"id": "F019",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "未办理税费种认定户数占正常户比例",
+	"isParent": "false"
+}, {
+	"id": "F021",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "一般纳税人转小规模纳税人的户数占比",
+	"isParent": "false"
+}, {
+	"id": "F022",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "行政许可办理总体情况（数量）",
+	"isParent": "false"
+}, {
+	"id": "F023",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "延期申报户数",
+	"isParent": "false"
+}, {
+	"id": "F024",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "延期缴纳户数",
+	"isParent": "false"
+}, {
+	"id": "F026",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "未领票纳税人户数占纳入税收管理户数比重",
+	"isParent": "false"
+}, {
+	"id": "F027",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "票证核发总体数量",
+	"isParent": "false"
+}, {
+	"id": "F028",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "发票代开总体数量",
+	"isParent": "false"
+}, {
+	"id": "F003",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "管理户数变动率",
+	"isParent": "false"
+}, {
+	"id": "F004",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "管户同比变动排名",
+	"isParent": "false"
+}, {
+	"id": "F002",
+	"zbydcbz": "",
+	"open": "",
+	"pId": "ZBFL0301",
+	"sflxmc": null,
+	"zblxmc": null,
+	"name": "登记户数变化率",
+	"isParent": "false"
+}]

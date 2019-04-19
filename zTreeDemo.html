@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/demo.css" />
+		<link rel="stylesheet" href="css/zTreeStyle/zTreeStyle.css" type="text/css">
+		<style>
+			.diyBtn2{
+				visibility: hidden;
+			}
+			.ztree li a:hover .diyBtn2{
+				visibility:visible;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--2、html设置一个div、ul，注意ul的class是固定的ztree-->
+		<div class="treecontentpane">
+			<ul id="busTree" class="ztree">
+			</ul>
+		</div>
+		<div id="configure-tree-menu" class="easyui-menu" style="width:150px;">
+			<div id="configureAdd" data-options="iconCls:'icon-add'">新增节点</div>
+			<div id="configureEdit" data-options="iconCls:'icon-edit'">编辑节点</div>
+			<div id="configureDelete" data-options="iconCls:'icon-remove'">删除节点</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="data.js" ></script>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<!--如果不需要那些hideNodes、showNodes等方法以只添加一个js，代替上面的三个js-->
+<script type="text/javascript" src="jquery.ztree.all.min.js"></script>
+<script type="text/javascript" src="jquery.ztree.core.js"></script>
+<script type="text/javascript" src="jquery.ztree.excheck.js"></script>
+<!--如果想要hideNodes、showNodes等方法，必须加入-->
+<script type="text/javascript" src="jquery.ztree.exedit.js"></script>
+<script type="text/javascript" src="callBackFun.js" ></script>
+<script type="text/javascript" src="zTreeDemo.js" ></script>
